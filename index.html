@@ -7,44 +7,294 @@
 
     <!-- LINKS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Montserrat:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:300,400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 
     <title>MariamKhalaf.com</title>
 </head>
-<body>
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#" src="img/logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<body data-spy="scroll" data-target="#navnarResponsive">
+
+<!--Home Section-->
+<div id="home">
+
+</div>
+<!--End-->
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto" >
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+        <div class="navbar-collapse collapse" id="navbar10">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-about">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#buyers">Buyers/Sellers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Buying</a>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Selling</a>
+                    <a class="nav-link" href="findahome.html">Listings</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<!--Search-->
+
+
+<!--Start Image Slider-->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="7000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/1-min.jpg" class="d-block img-fluid" alt="First slide">
+            <div class="carousel-caption text-center">
+                <h1>Your Next Chapter Starts Here.</h1>
+                <a class="btn btn-outline-light btn-lg" href="#contact">Let's Write It Together</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img  src="img/2-min.jpg" class="d-block img-fluid"   alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img  src="img/3-min.jpg" class="d-block img-fluid" alt="Third slide">
+        </div>
+    </div>
+</div>
+<!--End-->
+
+<!--About Me-->
+<div id="aboutme" class="offset">
+    <div class="jumbotron container-fluid bg-white">
+        <div class="col-12 text-center">
+        <h3 class="heading">get to know me</h3>
+        <div class="heading-underline"></div>
+        </div>
+    </div>
+</div>
+<section id="section-about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6" id="mypicture">
+                <img src="img/propic-min.png" alt="about image" class="img-responsive">
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="about-box">
+                    <h2 class="box-title">Mariam Khalaf / Associate Broker</h2>
+                    <div class="tiny-border"></div>
+                    <p>As an agent who's an expert in this local area, I bring a wealth of knowledge and expertise
+                        about buying and selling real estate here. It's not the same everywhere, so you need someone
+                        you can trust for up-to-date information. I am eager to serve you. Here are some addtional thing about me:</p>
+                    <ul class="list-style-1">
+                        <li>20+ Years of experience</li>
+                        <li>Brokerage: Keller Williams Legacy</li>
+                        <li>Specialize in Residential, Bank Homes, HUD homes, Investment Properties, New Construction,
+                            First Time Homebuyers, Luxury Homes.</li>
+                    </ul>
+                    <div class="divider-single"></div>
+                    <a href="#contact" id="aboutbut">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CONTACT ME
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--BUYERS/SELLERS-->
+
+<div id="buyers" class="offset">
+    <div class="jumbotron">
+        <h3 class="heading text-center">Buyers & sellers</h3>
+        <h3 class="heading-underline"></h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-4">
+                <!-- Card Flip -->
+                <div class="card-flip">
+                    <div class="flip">
+                        <div class="front">
+                            <!-- front content -->
+                            <div class="card">
+                                <img class="card-img-top" src="img/iStock-521203512-min.jpg" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" data-holder-rendered="true">
+                                <div class="card-block">
+                                    <h4 class="card-title text-center">Find Your Next Home</h4>
+                                    <a href="#" class="btn btn-primary btn-center">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Find Your Next Home</h4>
+                                </div>
+                                <img data-src="holder.js/100px180/?text=Image" src="img/iStock-521203512-min.jpg" alt="Image [100%x180]" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                                <div class="card-block">
+                                    <p class="card-text">You need someone who knows this area inside and out! I can work
+                                        with you to find the right home at the right price for you, including all the
+                                        neighborhood amenities that matter - not to mention the essential criteria you
+                                        have for your ideal home.</p>
+                                    <a href="findahome.html" class="card-link">View Listings</a>
+                                    <a href="contact.html" class="card-link">Contact Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card Flip -->
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <!-- Card Flip -->
+                <div class="card-flip">
+                    <div class="flip">
+                        <div class="front">
+                            <!-- front content -->
+                            <div class="card">
+                                <img class="card-img-top" src="img/realtor_resize_by_feverpitched_istock-min.jpg" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" data-holder-rendered="true">
+                                <div class="card-block">
+                                    <h4 class="card-title text-center">Sell A Home</h4>
+                                    <a href="#" class="btn btn-primary btn-center">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Sell A Home</h4>
+                                </div>
+                                <img data-src="holder.js/100px180/?text=Image" src="img/realtor_resize_by_feverpitched_istock-min.jpg" alt="Image [100%x180]" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                                <div class="card-block">
+                                    <p class="card-text">When it's time to move, you need someone who will advertise your home, show to prospective
+                                        buyers, negotiate the purchase contract, arrange financing, oversee the inspections, handle
+                                        all necessary paperwork and supervise the closing. I can take care of everything you need,
+                                        from start to close.</p>
+
+                                    <a href="contact.html" class="card-link">Start Selling</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card Flip -->
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <!-- Card Flip -->
+                <div class="card-flip">
+                    <div class="flip">
+                        <div class="front">
+                            <!-- front content -->
+                            <div class="card">
+                                <img class="card-img-top" src="img/real-estate-min.jpg" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" data-holder-rendered="true">
+                                <div class="card-block">
+                                    <h4 class="card-title text-center">Consult On Home Selling</h4>
+                                    <a href="#" class="btn btn-primary btn-center">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Consult On Home Selling</h4>
+                                </div>
+                                <img data-src="holder.js/100px180/?text=Image" src="img/real-estate-min.jpg" alt="Image [100%x180]" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                                <div class="card-block">
+                                    <p class="card-text">Oftentimes buyers don't visualize living in your home the way you do. I can make your home
+                                        attractive to its ideal audience - which can help you get top dollar. Things like staging
+                                        the home, making repairs or minor improvements, or even simply painting the walls can be the
+                                        difference between a home resting on the market and one that's sold fast.</p>
+
+                                    <a href="contact.html" class="card-link">Contact Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card Flip -->
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--FOOTER-->
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 footer-info">
+                    <h3>MARIAM KHALAF</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/soldbymariam/" class="twitter"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/soldbymariam/" class="twitter"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="https://soldbymariam.kwrealty.com/">KW Realty</a> </li>
+                        <li><a href="https://www.mtgonemichigan.com/mariaalaouieh/">MortgageOne</a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4>Contact Me</h4>
+                    <p>
+                        22371 W Village Dr, <br>
+                        Dearborn, MI 48124<br>
+                        United States<br>
+                        <strong>Phone:</strong>+1 313 377 8400<br>
+                        <strong>Office:</strong>+1 313 797 1200 <br>
+                        <strong>Email:</strong> mariamsestate@aol.com<br>
+                    </p>
+
+                </div>
+                <div class="col-lg-3 col-md-6 footer-newsletter">
+                    <h4>My Newsletter</h4>
+                    <p>
+                        Want to stay updated? Sign up for my newsletter!
+                    </p>
+                    <form accept="" method="post">
+                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong>MariamKhalaf.com</strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            Designed by <a href="http://unasouldesign.com/">UnaSoulDesign and CustomCodeWorks</a>
+        </div>
+    </div>
+</footer>
+<!--End-->
 
 
 <!-- script -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="java.js" rel="script"></script>
 </body>
 </html>
