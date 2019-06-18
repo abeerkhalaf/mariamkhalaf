@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- LINKS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
@@ -23,13 +25,13 @@
         <div class="navbar-collapse collapse" id="navbar10">
             <ul class="navbar-nav nav-fill w-100">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About Me</a>
+                    <a class="nav-link" href="/#section-about">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Buyers/Sellers</a>
+                    <a class="nav-link" href="/#buyers">Buyers/Sellers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="/"><img src="img/logo.png" alt="logo"></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="findahome.html">Listings</a>
@@ -65,16 +67,15 @@
 
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="form-contact-name" class="form-control">
+                                <input type="text" id="form-contact-name" class="form-control" required>
                                 <label for="form-contact-name" class="">Your name</label>
                             </div>
                         </div>
 
 
-
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="form-contact-email" class="form-control">
+                                <input type="text" id="form-contact-email" class="form-control" required>
                                 <label for="form-contact-email" class="">Your email</label>
                             </div>
                         </div>
@@ -88,16 +89,18 @@
 
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="form-contact-phone" class="form-control">
-                                <label for="form-contact-phone" class="">Your phone</label>
+                                <input type="tel" id="form-contact-phone" class="form-control">
+                                <label for="form-contact-phone" class="">Your phone number</label>
                             </div>
                         </div>
 
 
-
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="form-contact-company" class="form-control">
+                                <select id="form-contact-company" class="form-control">
+                                    <option value="Buying" selected>Buying</option>
+                                    <option value="Selling">Selling</option>
+                                </select>
                                 <label for="form-contact-company" class="">Buying Or Selling?</label>
                             </div>
                         </div>
@@ -106,13 +109,13 @@
                     </div>
 
 
-
                     <div class="row">
 
 
                         <div class="col-md-12 ">
                             <div class="md-form mb-0">
-                                <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
+                                <textarea id="form-contact-message" class="form-control md-textarea"
+                                          rows="3" required></textarea>
                                 <label for="form-contact-message">Your message</label>
                                 <a class="btn-floating btn-lg blue">
                                     <i class="far fa-paper-plane"></i>
@@ -170,8 +173,10 @@
     <!-- Form with header -->
     <div class="ad" align="center" style="margin-top: 10px;">
         <a href="https://www.foreclosure.com?rsp=295994&amp;a_bid=547730de" target="_top">
-            <img src="https://associate.foreclosure.com/accounts/default1/banners/547730de.gif" alt="" title="" width="728" height="90" />
-        </a><img style="border:0" src="https://associate.foreclosure.com/scripts/imp.php?rsp=295994&amp;a_bid=547730de" width="1" height="1" alt="" />
+            <img src="https://associate.foreclosure.com/accounts/default1/banners/547730de.gif" alt="" title=""
+                 width="728" height="90"/>
+        </a><img style="border:0" src="https://associate.foreclosure.com/scripts/imp.php?rsp=295994&amp;a_bid=547730de"
+                 width="1" height="1" alt=""/>
     </div>
 </section>
 <!-- Section: Contact v.3 -->
@@ -185,15 +190,17 @@
                 <div class="col-lg-4 col-md-6 footer-info">
                     <h3>MARIAM KHALAF</h3>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/soldbymariam/" class="twitter"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/soldbymariam/" class="twitter"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/soldbymariam/" class="twitter"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/soldbymariam/" class="twitter"><i
+                                class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><a href="https://soldbymariam.kwrealty.com/">KW Realty</a> </li>
-                        <li><a href="https://www.mtgonemichigan.com/mariaalaouieh/">MortgageOne</a> </li>
+                        <li><a href="https://soldbymariam.kwrealty.com/">KW Realty</a></li>
+                        <li><a href="https://www.mtgonemichigan.com/mariaalaouieh/">MortgageOne</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer-contact">
@@ -232,8 +239,14 @@
 </body>
 
 <!-- script -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
