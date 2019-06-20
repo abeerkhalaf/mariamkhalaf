@@ -48,7 +48,7 @@
 <section class="contact-section my-5">
 
 
-    <div class="card">
+    <form action="contact-form.php" method="post" class="card" id="myform">
 
 
         <div class="row">
@@ -117,7 +117,8 @@
                                 <textarea id="form-contact-message" class="form-control md-textarea"
                                           rows="3" required></textarea>
                                 <label for="form-contact-message">Your message</label>
-                                <a class="btn-floating btn-lg blue">
+                                <a class="btn-floating btn-lg blue" id="submit-btn">
+                                    <input type="submit">
                                     <i class="far fa-paper-plane"></i>
                                 </a>
                             </div>
@@ -168,8 +169,8 @@
 
         </div>
         <!-- Grid row -->
+    </form>
 
-    </div>
     <!-- Form with header -->
     <div class="ad" align="center" style="margin-top: 10px;">
         <a href="https://www.foreclosure.com?rsp=295994&amp;a_bid=547730de" target="_top">
@@ -200,7 +201,6 @@
                     <h4>Useful Links</h4>
                     <ul>
                         <li><a href="https://soldbymariam.kwrealty.com/">KW Realty</a></li>
-                        <li><a href="https://www.mtgonemichigan.com/mariaalaouieh/">MortgageOne</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer-contact">
