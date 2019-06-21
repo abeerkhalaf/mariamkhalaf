@@ -40,3 +40,7 @@ myform.addEventListener('submit', function(e){
     })
 });
 
+
+function validation() {
+    swal("Good Job!", "You success to login", "success");
+}
