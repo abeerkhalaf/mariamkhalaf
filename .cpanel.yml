@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mariamkhalaf
+    - export DEPLOYPATH=/home/mariamkhalaf/repositories/mariamkhalaf/public
 
     - /bin/cp -R . $DEPLOYPATH
