@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mariamkhalaf/repositories/mariamkhalaf
+    - /bin/cp -R . $DEPLOYPATH
